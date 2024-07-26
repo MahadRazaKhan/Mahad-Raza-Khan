@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: gray;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: orangered;
+    transition: 0.5s;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    height: 15vh;
+  }
+  #mode{
+    height: 60px;
+    width: 120px;
+    border: none;
+    border-radius: 100px;
+    background-color: lightgrey;
+    color: black;
+    font-size: larger;
+  }
+  #mode:hover{
+    background-color: orangered;
+    color: white;
+    transition:0.5s;
+  }
