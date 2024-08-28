@@ -1,6 +1,5 @@
 let modeBtn = document.querySelector("#mode");
 let currMode = "Light";
-let a = alert("Site is under maintenance");
 modeBtn.addEventListener("click", () => {
     console.log("Mode Changed!");
     if(currMode === "Light"){
